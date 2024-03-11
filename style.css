@@ -1,0 +1,76 @@
+body,
+html {
+  
+  margin: 20px;
+  background-color: #000000;
+}
+
+.container {
+  display: grid ;
+  column-gap: 5px;
+  row-gap: 1px;
+  grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px ;
+  grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px ;
+}
+
+.container div {
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.header {
+  background-color: #ffffff;
+  grid-column-start: 1 ;
+  grid-column-end: 3 ;
+  grid-row-start: 1;
+  grid-row-end: 5 ;
+}
+
+.sidebar {
+  background-color: #ffffff;
+  grid-column-start: 1 ;
+  grid-column-end: 3 ;
+  grid-row-start: 5 ;
+  grid-row-end: 9;
+
+}
+
+.nav {
+  background-color: #ff0000;
+  grid-column-start: 3 ;
+  grid-column-end: 11 ;
+  grid-row-start: 1 ;
+  grid-row-end: 9 ;
+}
+
+.article {
+  background-color: #1d0178;
+  grid-column-start: 1 ;
+  grid-column-end: 3 ;
+  grid-row-start: 9 ;
+  grid-row-end: 11;
+}
+
+.footer {
+  background-color: #ffffff;
+  grid-column-start: 3 ;
+  grid-column-end: 9 ;
+  grid-row-start: 9;
+  grid-row-end: 11 ;
+}
+
+.Gelb {
+  background-color: rgb(246, 255, 0) ;
+  grid-column-start: 9 ;
+  grid-column-end: 11 ;
+  grid-row-start: 10 ;
+  grid-row-end: 11 ;
+}
+
+.Weiss {
+  background-color: rgb(255, 255, 255) ;
+  grid-column-start: 9 ;
+  grid-column-end: 11 ;
+  grid-row-start: 9 ;
+  grid-row-end: 10 ;
+}
